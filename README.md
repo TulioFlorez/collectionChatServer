@@ -1,6 +1,6 @@
 # CollectionChatServer
 
-##POST http://localhost:8080/api/chatrooms
+## POST http://localhost:8080/api/chatrooms
 This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.
 
 A successful POST request typically returns a 200 OK or 201 Created response code.
