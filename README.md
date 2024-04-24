@@ -5,7 +5,7 @@ This is a POST request, submitting data to an API via the request body. This req
 
 A successful POST request typically returns a 200 OK or 201 Created response code.
 
-##Authorization
+### Authorization
 **Basic Auth**
 Username <admin>
 Password <adminpassword>
@@ -20,7 +20,7 @@ json
 ## POST  http://localhost:8080/api/messages (USER1 & USER2)
 This API endpoint allows you to send a POST request to create a new message in a chat room. The request should be sent to http://localhost:8080/api/messages with a JSON payload in the request body.
 
-##Authorization
+###Authorization
 **Basic Auth**
 Username <user1>
 Password <chatpassword>
@@ -57,14 +57,14 @@ chat (array): An array containing the details of the posted message, including t
 ## DELETE  http://localhost:8080/api/messages
 This is a DELETE request, and it is used to delete the last message`s user 
 
-##Authorization
+### Authorization
 **Basic Auth**
 Username <user1>
 Password <chatpassword>
 
 ## get  http://localhost:8080/api/messages
 This is a GET request and it is used to retrieve the historial chat
-##Authorization
+### Authorization
 **Basic Auth**
 Username <user1>
 Password <chatpassword>
