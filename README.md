@@ -62,7 +62,7 @@ This is a DELETE request, and it is used to delete the last message`s user
 Username: user1
 Password: chatpassword
 
-## get  http://localhost:8080/api/messages
+## GET  http://localhost:8080/api/messages
 This is a GET request and it is used to retrieve the historial chat
 ### Authorization
 **Basic Auth**
