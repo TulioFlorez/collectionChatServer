@@ -7,8 +7,8 @@ A successful POST request typically returns a 200 OK or 201 Created response cod
 
 ### Authorization
 **Basic Auth**
-Username <admin>
-Password <adminpassword>
+Username: admin
+Password: adminpassword
 
 **Body**
 raw (json)
@@ -22,12 +22,12 @@ This API endpoint allows you to send a POST request to create a new message in a
 
 ###Authorization
 **Basic Auth**
-Username <user1>
-Password <chatpassword>
+Username: user1
+Password: chatpassword 
 
 **Basic Auth**
-Username <user2>
-Password <newpassword>
+Username: user2
+Password: newpassword
 
 **Request Body**
 content (string, required): The content of the message.
@@ -59,15 +59,15 @@ This is a DELETE request, and it is used to delete the last message`s user
 
 ### Authorization
 **Basic Auth**
-Username <user1>
-Password <chatpassword>
+Username: user1
+Password: chatpassword
 
 ## get  http://localhost:8080/api/messages
 This is a GET request and it is used to retrieve the historial chat
 ### Authorization
 **Basic Auth**
-Username <user1>
-Password <chatpassword>
+Username: user1
+Password: chatpassword
 
 
 
